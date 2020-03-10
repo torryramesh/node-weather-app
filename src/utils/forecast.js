@@ -16,7 +16,7 @@ const forecast = (latitude,longitude, callback) =>{
           const temp =  body.currently.temperature
           const precip = body.currently.precipProbability
      
-          callback(undefined, summary+". Temperature of "+temp+" degrees with "+precip+"% chance for rain.")
+          callback(undefined, summary+". Currently, Temperature of "+temp+" degrees with "+precip+"% chance for rain.")
             
                 
             
